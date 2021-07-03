@@ -1,4 +1,50 @@
-*{
+ @import url('https://fonts.googleapis.com/css2?family=Festive&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap');
+body{
     margin: 0;
-    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+.header-banner{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.header-text{
+    font-size: 50px;
+    font-family: 'Tourney', cursive;
+    padding-bottom: 30px;
+}
+.heading-orange{
+    color: #ffa500;
+    font-family: 'Tourney', cursive;
+}
+.my-dream{
+    font-size: 30px;
+}
+.lead{
+    font-size: 23px;
+    padding-top: 30px;
+}
+.container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    min-width: 100%;
+    /* max-width: 100%; */
+}
+.half-width.left{
+    padding: 5%;
+    padding-right: 0;
+}
+.btn{
+    padding: 10px 30px;
+    background: linear-gradient(45deg, #f5aa64,#f36060);
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 7px;
+    color: #fff;
 }
