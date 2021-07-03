@@ -56,10 +56,69 @@ body{
 }
 .dream-header{
     font-size: 55px;
+    font-family: 'Tourney', cursive;
 }
 .will-dream{
     font-size: 30px;
+    font-family: 'Tourney', cursive;
 }
 .dream-img{
     text-align: center;
+}
+.dream-right{
+    padding-right: 4%;
+}
+/* .experience-area{
+    margin-top: -120px;
+} */
+.experience-area .container{
+    justify-content: flex-end;
+}
+.experience-area{
+    background: url(images/exp-bg.png) left center;
+    background-repeat: no-repeat;
+
+}
+.experience-header{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tourney', cursive;
+}
+.experience-width{
+    margin: 0 auto;
+    width: 90%;
+}
+.experience-card{
+    /* background: #fff; */
+    padding: 2% 5%;
+    box-shadow: 0px 0px 25px 2px rgba(34, 34, 34, 0.507);
+    width: 40%;
+}
+.experience-card .title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.experience-card .lead{
+         font-size: 20px;
+         font-weight: 400;
+}
+.experience-card .subtitle{
+    font-size: 27px;
+    color: #f5aa64;
+}
+.experience-footer{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.footer{
+    align-self: center;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #888;
+}
+.link{
+    color: #f36060;
+    text-decoration: none;
 }
